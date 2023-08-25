@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-fCZM.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  @font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l52_wFZWMf6.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  @font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v22/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSh0mQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  @font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v22/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSh0mQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  body {
+    background-color: hsla(0, 0%, 0%, 100%);
+  }
+  
+  body::before {    
+    content: "";
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/708/291/699/programming-programming-language-syntax-highlighting-minified-knowledge-coding-code-html-color-codes-css-computer-pixels-computer-screen-logic-wallpaper-preview.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+  }
+  
+  table {
+    margin: 0px auto;
+  }
+
+  .main-table {
+    margin: 100px auto 40px;
+  }
+
+  th {
+    color: hsla(0, 0%, 100%, 100%);
+  }
+  
+  td {
+    border: 2px solid black;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+  }
+  
+  .tab-title, .attr-title {
+    background-color: hsla(167, 100%, 40%, 100%);
+    font-family: "Merriweather";
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: hsla(0, 60%, 45%, 100%);
+  }
+  
+  .tag {
+    background-color: hsla(167, 100%, 40%, 100%);
+    font-family: "Roboto Mono";
+    font-weight: 700;
+  }
+  
+  .name {
+    background-color: hsla(167, 100%, 70%, 100%);
+    font-family: "Merriweather";
+    font-size: 15px;
+  }
+  
+  .description {
+    width: 300px;
+    background-color: hsla(167, 100%, 80%, 100%);
+    font-family: "Merriweather";
+    font-size: 15px;
+  }
